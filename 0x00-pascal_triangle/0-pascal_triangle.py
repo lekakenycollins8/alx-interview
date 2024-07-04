@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """function that generates the Pascal's triangle"""
 
+
 def pascal_triangle(n):
     """takes in an integer and returns a list of lists"""
     triangle = []
