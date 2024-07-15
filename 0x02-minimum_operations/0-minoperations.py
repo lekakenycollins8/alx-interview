@@ -20,7 +20,7 @@ Number of operations: 6
 def minOperations(n):
     """finds the least possible number of operations to get n characters"""
     counter = 0
-    if n <= 1 or n > 10**6:
+    if n <= 1:
         return 0
     for i in range(2, n + 1):
         while n % i == 0:
