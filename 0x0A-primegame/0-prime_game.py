@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+"""Prime Game"""
+
+
 def isWinner(x, nums):
     """Sieve of Eratosthenes to precompute prime numbers up to the largest n"""
     def sieve_of_eratosthenes(limit):
